@@ -5,7 +5,8 @@ export class Read extends React.Component {
    
    
    state = {
-    //Array of books containing 3 book objects
+      {/*Array of books containing 3 book objects
+      Each object contains the title, isbn, pagecount, image, status, the author and the catergory */}
     books:[
         {
         "title": "Learn Git in a Month of Lunches",
