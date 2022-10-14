@@ -22,7 +22,9 @@ class App extends React.Component {
     return ( //classname just calls the app.css file
       <Router>
         <div className="App">
-
+      {/*Creates a container where we can create routing between the different pages
+      We can then set up Routes between the 
+      pages*/}
           <Navbar bg="primary" variant="dark">
             <Container>
               <Navbar.Brand href="#home">Navbar</Navbar.Brand>
