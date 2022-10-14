@@ -5,6 +5,8 @@ export class BookItem extends React.Component {
     render() {
         return (
             <div>
+            {/*This displays info on the books by retrieving object info from the books array 
+            including the book title, the book image and the name of the author*/}
                 <div className="App">
                     <Card>
                         <Card.Header>{this.props.book.title}</Card.Header>
