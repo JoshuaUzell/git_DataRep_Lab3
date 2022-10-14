@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Content } from './components/content';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
+import { Read } from './components/read';
+import { Create } from './components/create';
+
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
@@ -27,13 +30,14 @@ class App extends React.Component {
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/read">Read</Nav.Link>
                 <Nav.Link href="/create">Create</Nav.Link>
+
               </Nav>
             </Container>
           </Navbar>
           <Routes>
             <Route path='/' element={<Content></Content>}></Route>
-            <Route path='/read' element={<Header></Header>}></Route>
-            <Route path='/create' element={<Footer></Footer>}></Route>
+            <Route path='/read' element={<Read></Read>}></Route>
+            <Route path='/create' element={<Create></Create>}></Route>
           </Routes>
           {/* <Header></Header>
         <Content></Content>
