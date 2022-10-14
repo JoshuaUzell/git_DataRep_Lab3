@@ -3,7 +3,7 @@ import React from "react";
 export class Footer extends React.Component {
     render() {
         return (
-            <div>
+            <div> {//Displays message saying we are in the Footer component}
                 <div className="App">
                     <h1>My Footer in another component</h1>
                 </div>
